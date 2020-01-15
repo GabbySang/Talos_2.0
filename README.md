@@ -48,5 +48,4 @@ Note:  Generators are usually run using the globally-installed `sails` CLI (comm
 
 ### Circuit Diagram
 
-![]
-(/assets/images/Ard_Temp_Schematic.png)
+![](assets/images/Ard_Temp_Schematic.png)

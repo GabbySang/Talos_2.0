@@ -1,50 +1,57 @@
 #homepage {
 
   .hero {
-    padding-top: 100px;
-    padding-bottom: 25px;
+    padding-top: 50px;
+    padding-bottom: 85px;
     color: @brand;
     position: relative;
     .hero-image {
-      width: 220px;
-      height: 170px;
+      width: 345px;
+      height: 400px;
       margin-left: auto;
       margin-right: auto;
       position: relative;
+      
+
       img {
         position: absolute;
-      }
-      .sky {
-        width: 170px;
-        left: 25px;
-        top: 25px;
-      }
-      .cloud {
-        .fly-fade();
-        width: 80px;
-        &.cloud-1 {
-          top: 55px;
-          left: -40px;
-          opacity: 0;
-          .animation-delay(3.5s);
-        }
-        &.cloud-2 {
-          top: 45px;
-          left: -40px;
-          opacity: 0;
+        .imgContainer {
+          height: 2800px;
+          
+      
         }
       }
-      .ship {
-        .skid();
-        width: 160px;
-        bottom: 50px;
-        left: 18px;
-      }
-      .water {
-        width: 170px;
-        bottom: 40px;
-        left: 25px;
-      }
+      // .sky {
+      //   width: 170px;
+      //   left: 25px;
+      //   top: 25px;
+      // }
+      // .cloud {
+      //   .fly-fade();
+      //   width: 80px;
+      //   &.cloud-1 {
+      //     top: 55px;
+      //     left: -40px;
+      //     opacity: 0;
+      //     .animation-delay(3.5s);
+      //   }
+      //   &.cloud-2 {
+      //     top: 45px;
+      //     left: -40px;
+      //     opacity: 0;
+      //   }
+      // }
+      // .ship {
+      //   .skid();
+      //   width: 160px;
+      //   bottom: 50px;
+      //   left: 18px;
+      // }
+      // .water {
+      //   width: 170px;
+      //   bottom: 40px;
+      //   left: 25px;
+      // }
     }
     h1 {
       padding-bottom: 50px;
@@ -52,7 +59,7 @@
     .more-info-text {
       .bob();
       cursor: pointer;
-      margin-top: 75px;
+      margin-top: 95px;
       position: absolute;
       width: 100%;
       bottom: 25px;
@@ -156,7 +163,7 @@
   }
   @media (max-width: 450px) {
     .hero {
-      padding-top: 50px;
+      padding-top: 10px;
         h1.display-4 {
         font-size: 34px;
       }
